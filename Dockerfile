@@ -16,7 +16,7 @@ COPY Gemfile Gemfile.lock ./
 ENV RAILS_ENV production
 ENV RACK_ENV production
 ENV NODE_ENV production
-
+RUN bundle update mimemagic
 RUN gem install bundler && bundle install --deployment --without development test
 
 COPY . ./
