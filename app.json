@@ -8,6 +8,7 @@
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
   },
+  "stack": "heroku-18",
   "env": {
     "SECRET_KEY_BASE": {
       "generator": "secret"
