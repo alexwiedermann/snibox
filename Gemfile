@@ -12,7 +12,8 @@ gem 'pg', '~> 1.1', '>= 1.1.4'
 gem 'puma', '~> 3.12'
 
 gem 'active_model_serializers', '~> 0.10.8'
-gem 'bootsnap', '~> 1.3', require: false
+gem 'bootsnap', '~> 1.4.4', require: false
+gem 'msgpack'
 gem 'counter_culture', '~> 1.12'
 gem 'devise', '~> 4.5'
 gem 'dotenv-rails', '~> 2.6'

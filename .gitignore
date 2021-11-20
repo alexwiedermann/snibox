@@ -29,6 +29,7 @@ yarn-debug.log*
 /coverage
 /public/assets
 /db/data
+vendor/bundle
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
